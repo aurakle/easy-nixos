@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-
-sudo mkdir -p /etc/nixos/nixusers
-sudo mkpass 1>/etc/nixos/nixusers/$(id -u $1).nixuser.pswd
