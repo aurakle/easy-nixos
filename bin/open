@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-
-opener="xdg-open"
-
-if command -v exo-open &> /dev/null; then
-  opener="exo-open"
-fi
-
-$opener "$@"
