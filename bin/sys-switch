@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-cd /etc/nixos && sudo nixos-rebuild switch --upgrade --log-format bar-with-logs
