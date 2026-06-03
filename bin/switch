@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-
-mkdir -p ~/.config/home-manager
-ln -sf ~/.home.nix ~/.config/home-manager/home.nix
-home-manager switch
